@@ -1,0 +1,29 @@
+  h3 {
+    background-color: cornflowerblue;
+  }
+
+  p {
+    font-size: 50px;
+    color: hotpink;
+  }
+
+  ul {
+    background-color: antiquewhite;
+    color: chocolate;
+  }
+
+  li {
+    color: honeydew;
+  }
+
+  aquify {
+    background-color: aqua;
+  }
+
+  .tomatify {
+    color: tomato;
+  }
+
+  #content {
+    background-color: springgreen;
+  }
