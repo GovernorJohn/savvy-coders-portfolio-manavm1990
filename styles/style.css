@@ -20,6 +20,10 @@ li {
   background-color: aqua;
 }
 
+.container {
+  width: 960px;
+}
+
 .tomatify {
   color: tomato;
 }
