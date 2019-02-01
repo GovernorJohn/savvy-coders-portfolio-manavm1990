@@ -10,10 +10,16 @@ p {
 ul {
   background-color: antiquewhite;
   color: chocolate;
+  padding: 0;
 }
 
-li {
+#navigation li {
   color: honeydew;
+  display: inline;
+}
+
+li:first-child {
+  margin-right: 25px;
 }
 
 .aquify {
