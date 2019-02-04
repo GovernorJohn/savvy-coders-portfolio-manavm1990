@@ -53,6 +53,11 @@ ul li {
   padding: 10px;
 }
 
+.flt-lft {
+  float: left;
+  margin-right: 10px;
+}
+
 .aquify {
   background-color: aqua;
 }
