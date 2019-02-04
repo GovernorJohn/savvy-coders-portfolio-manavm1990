@@ -8,12 +8,27 @@
 a {
   text-decoration: none;
 }
-p {
-  font-size: 50px;
-  color: hotpink;
+
+body {
+  background-color: #333;
+  font-size: 20px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+figure {
+  text-align: center;
 }
 
 ul {
+  list-style: none;
+}
+
+ul li {
+  text-indent: 10px;
+}
   background-color: antiquewhite;
   color: chocolate;
   padding: 0;
