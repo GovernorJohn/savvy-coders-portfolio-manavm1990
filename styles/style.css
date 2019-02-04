@@ -58,18 +58,10 @@ ul li {
   margin-right: 10px;
 }
 
-.aquify {
-  background-color: aqua;
-}
-
 .container {
   background: white;
   margin: auto;
   width: 960px;
-}
-
-.tomatify {
-  color: tomato;
 }
 
 #content {
