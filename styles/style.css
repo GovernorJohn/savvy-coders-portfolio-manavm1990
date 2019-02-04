@@ -33,6 +33,8 @@ li:first-child {
 }
 
 .container {
+  background: white;
+  margin: auto;
   width: 960px;
 }
 
