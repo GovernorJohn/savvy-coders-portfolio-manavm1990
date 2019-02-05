@@ -55,7 +55,7 @@ ul li {
 
 .flt-lft {
   float: left;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .container {
@@ -66,4 +66,8 @@ ul li {
 
 #content {
   background-color: springgreen;
+}
+
+li:hover {
+  background: red;
 }
