@@ -1,6 +1,4 @@
-/* Reset styles */
 * {
-  color: black;
   margin: 0;
   padding: 0;
 }
@@ -12,6 +10,10 @@ a {
 body {
   background-color: #333;
   font-size: 20px;
+}
+
+h3:first-of-type {
+  margin-top: 10px;
 }
 
 hr {
@@ -30,8 +32,12 @@ ul li {
   text-indent: 10px;
 }
 
+p:not(:first-of-type) {
+  margin: 10px 5px;
+}
+
 #navigation {
-  background-color: antiquewhite;
+  background: white;
   padding: 16px;
   text-transform: uppercase;
 }
@@ -43,14 +49,19 @@ ul li {
 }
 
 #navigation li {
-  color: honeydew;
   display: inline;
   margin-right: 25px;
   text-decoration: none;
 }
 
+#header {
+  color: chartreuse;
+  padding: 10px 0;
+}
+
 #content {
-  padding: 10px;
+  background: whitesmoke;
+  /* padding: 10px 0; */
 }
 
 .flt-lft {
@@ -59,13 +70,12 @@ ul li {
 }
 
 .container {
-  background: white;
   margin: auto;
   width: 960px;
 }
 
-#content {
-  background-color: springgreen;
+.container > div {
+  padding-top: 10px;
 }
 
 li:hover {
